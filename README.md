@@ -52,9 +52,9 @@ Abre http://localhost:5173. Vite reenvía las llamadas `/api` al backend en el p
 
 ## 6. Probar la conversación
 
-1. Selecciona **Cliente Demo** (las demás conversaciones son solo visuales).
-2. Escribe `Hola, tengo una pregunta.` y pulsa Enter. Aparece «IA está escribiendo...» y luego la respuesta.
-3. Haz más preguntas sobre cualquier tema: la IA conserva el contexto.
+1. Selecciona **Maquitrans S.A.S.** (las demás conversaciones son solo visuales).
+2. Pregunta por sus servicios o por el costo de un equipo, por ejemplo: `¿Cuánto vale la hora de una grúa?`
+3. La IA responderá usando la información de servicios incluida en esta demo. Como no hay tarifas cargadas, pedirá los datos necesarios para orientar una cotización y no inventará precios.
 
 ## 7. Probar Pausar IA
 

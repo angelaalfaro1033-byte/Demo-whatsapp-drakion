@@ -53,7 +53,7 @@ export default function App() {
               messages={demo.messages}
               isTyping={demo.isTyping}
               isLoading={demo.isLoading}
-              emptyText="Escribe un mensaje para iniciar la conversación. La IA responderá automáticamente."
+              emptyText="Pregunta por los servicios de Maquitrans o solicita orientación para cotizar un equipo. Esta demo no incluye tarifas."
             />
             <Composer
               automationActive={demo.automationActive}
@@ -65,7 +65,7 @@ export default function App() {
         ) : (
           <>
             <MessageList messages={activeContact.messages} isTyping={false} isLoading={false} emptyText="" />
-            <p className="readonly-note">Conversación de ejemplo. Selecciona «Cliente Demo» para probar la IA.</p>
+            <p className="readonly-note">Conversación de ejemplo. Selecciona «Maquitrans S.A.S.» para probar la IA.</p>
           </>
         )}
       </main>

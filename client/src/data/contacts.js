@@ -1,10 +1,10 @@
-// Conversaciones ficticias para poblar el sidebar. Solo "Cliente Demo" es funcional.
+// Conversaciones ficticias para poblar el sidebar. Solo Maquitrans es funcional.
 export const DEMO_CONVERSATION_ID = "cliente-demo";
 
 const at = (hhmm) => `2026-01-01T${hhmm}:00`;
 
 export const contacts = [
-  { id: DEMO_CONVERSATION_ID, name: "Cliente Demo", initials: "CD", color: "#2563EB", functional: true, unread: 0 },
+  { id: DEMO_CONVERSATION_ID, name: "Maquitrans S.A.S.", initials: "MT", color: "#2563EB", functional: true, unread: 0 },
   {
     id: "maria-rodriguez", name: "María Rodríguez", initials: "MR", color: "#7C3AED", unread: 2,
     messages: [

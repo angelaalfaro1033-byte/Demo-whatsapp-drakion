@@ -20,7 +20,7 @@ export default function ChatHeader({ contact, automationActive, onOpenSidebar })
       </span>
       <div className="chat-header-info">
         <strong>{contact.name}</strong>
-        <span className="chat-header-sub">Demo de automatización con IA</span>
+        <span className="chat-header-sub">Asistente de servicios · Demo</span>
       </div>
       <span className={`status ${status.className}`}>
         <span className="status-dot" />
